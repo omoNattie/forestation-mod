@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 using Terraria.DataStructures;
 using Terraria.GameContent.Creative;
 
-namespace Forestation.Content.Items.Souls
+namespace Forestation.Content.Items.Droppables.Souls
 {
     public class SoulOfTheForest : ModItem
     {
@@ -26,7 +26,8 @@ namespace Forestation.Content.Items.Souls
         {
             Item.width = 20;
             Item.height = 20;
-            
+            Item.scale = 3f;
+
             Item.maxStack = 99;
             Item.value = Item.buyPrice(gold: 3);
             

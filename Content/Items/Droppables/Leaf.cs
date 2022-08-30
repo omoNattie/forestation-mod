@@ -7,7 +7,7 @@ namespace Forestation.Content.Items.Droppables
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Leaf.");
+            DisplayName.SetDefault("Leaf");
             Tooltip.SetDefault("Just a simple Leaf.");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 100;
         }
