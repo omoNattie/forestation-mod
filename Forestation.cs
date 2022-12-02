@@ -1,8 +1,6 @@
 using Terraria.ModLoader;
 
-namespace Forestation
+namespace Forestation;
+public class Forestation : Mod
 {
-	public class Forestation : Mod
-	{
-	}
 }
